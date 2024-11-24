@@ -20,6 +20,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+  padding: 0 1rem;
 }
 
 .logo {
@@ -68,8 +69,11 @@ section {
   padding: 2rem;
 }
 
-.video {
+video {
   margin-top: 2rem;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
 }
 
 /* ----- Header ----- */
@@ -82,6 +86,34 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* ----- Hero ----- */
+.container-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: url(img/scratch.png);
+  background-repeat: no-repeat;
+  background-position: 10%;
+  height: 500px;
+  gap: 1rem;
+}
+
+.container-hero h2 {
+  color: #00A300;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.container-hero p {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.container-hero>div p:nth-last-child(2) {
+  margin-bottom: 1rem;
 }
 
 /* ----- Companies ----- */

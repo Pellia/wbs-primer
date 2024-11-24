@@ -10,54 +10,63 @@
 
 body {
     font-family: "Lato", sans-serif;
+    color: #252525;
     background-image: url(img/bg_blur.png);
     background-repeat: repeat-y;
 }
 
-/* ----- Fonts ----- */
-/* .lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-.lato-regular {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-.lato-bold {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-.lato-black {
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  } */
-
-h1 {
+.logo {
     font-family: "Pacifico";
     font-size: 1.8rem;
-    font-style: normal;
 }
-  
+
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.85);
+} 
+
+.btn-try {
+  background-color: #00A300;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-try:hover {
+  background: #00be00;
+}
+
+.btn-try a {
+  color: white;
+}
+
 h2 {
     font-size: 1.5rem;
     font-weight: 900;
-    font-style: normal;
 }
 
+li {
+  display: inline;
+  list-style: none;
+  padding: 0.5rem;
+}
 
-.bg-white {
-    background-color: white;
+a {
+  text-decoration: none;
+  color: #252525;
+  font-weight: bold;
 }
 
 /* ----- Header ----- */
 header {
     background-color: rgba(255, 255, 255, 0.85);
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.container-header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

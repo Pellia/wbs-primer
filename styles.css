@@ -92,7 +92,7 @@ header {
 .container-hero {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   background-image: url(img/scratch.png);
   background-repeat: no-repeat;
@@ -123,6 +123,31 @@ header {
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 2rem;
+}
+
+/* ----- Why ------ */
+.container-why {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.container-why h3 {
+  margin-bottom: 1.5rem;
+}
+
+.container-why div {
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.container-why hr {
+  margin: 1rem;
+  border: 1px solid rgb(200, 200, 200);
 }
 
 /* ----- Footer ----- */

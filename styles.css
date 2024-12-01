@@ -32,6 +32,10 @@ body {
   background-color: rgba(255, 255, 255, 0.85);
 } 
 
+.shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
 .btn-try {
   background-color: #00A300;
   padding: 0.4rem;
@@ -46,6 +50,21 @@ body {
 .btn-try a {
   color: white;
 }
+
+.btn-sub {
+    background-color: #FEFFDA;
+    padding: 0.4rem;
+    border: 1px solid #B3B900;
+    border-radius: 8px;
+  }
+  
+  .btn-sub:hover {
+    background: #FEFFDA;
+  }
+  
+  .btn-sub a {
+    color: #252525;
+  }
 
 h2 {
     font-size: 1.5rem;
@@ -171,6 +190,48 @@ header {
 .container-why hr {
   margin: 1rem;
   border: 1px solid rgb(200, 200, 200);
+}
+
+/* ----- Sub ----- */
+.container-sub {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.container-sub div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+}
+
+.container-sub  h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.container-sub button {
+    margin: 0 4rem;
+}
+
+#popular {
+    width: 300px;
+    height: 350px;
+    box-shadow: 0px 0px 20px rgba(22, 158, 17, 0.5);
+}
+
+#popular h3 {
+    margin-top: -2rem;
+    font-size: 2rem;
+}
+
+#popular p {
+    font-weight: bold;
 }
 
 /* ----- Footer ----- */
